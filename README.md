@@ -1,1 +1,2 @@
-# Rent-a-Space-
+# Rent-a-Space
+This is a web-portal developed using javascript, html and MySQL. We have used Eclipse IDE for the development and we have used Apache Tomcat as the server. This project is just the initial step towards a broad web-based system which will be provided as a service to anyone who have an internet connection. The idea behind this project may be formed from the experience in existing systems.
