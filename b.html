@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Login form</title>
+<script>
+function digclock()
+{
+	var d = new Date()
+	var t = d.toLocaleTimeString()
+	document.getElementById("clock").innerHTML = t
+}
+
+setInterval(function(){digclock()},1000)
+
+</script>
+<div id="clock"></div>
+<center>
+	<h1>
+		<font size='20'><i>Rent-a-Space 
+	</h1>
+	</font></i>
+</center>
+</head>
+
+<body
+	background="E:\Learn\PG\Sem 3\EBT\pro\HouseRent\WebContent\img1.jpg">
+
+	<form method="post" action="login.jsp">
+
+		<table border="1" width="40%" cellpadding="3" align="center">
+			<thead>
+				<tr>
+					<th colspan="2"><font size="5">Login Here</font></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><b>User Name</b></td>
+					<td><input type="text" name="uname" value="" /></td>
+				</tr>
+				<tr>
+					<td><b>Password</b></td>
+					<td><input type="password" name="pass" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><input type="submit"
+						value="Login" /> <input type="reset" value="Reset" /></td>
+				</tr>
+				<tr>
+					<td colspan="2">Not yet Registered? <a href="Register.jsp">Sign
+							Up!</a></td>
+				</tr>
+				<tr>
+					<td colspan="2">List your property <a href="owner.jsp">Here!</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
